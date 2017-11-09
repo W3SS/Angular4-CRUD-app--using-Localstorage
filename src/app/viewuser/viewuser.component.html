@@ -1,0 +1,58 @@
+<div id="content" class="col-lg-10 col-sm-10">
+  <h1 style="text-align:center;">View User</h1>
+
+  <div class=row >
+      <div class=" col-lg-4 col-sm-4"></div>
+      <div class=" col-lg-4 col-sm-4">
+  <div class="box-content">
+      <table class="table table-striped table-bordered bootstrap-datatable datatable responsive">
+          <tbody>
+            <tr>
+                <th>Username:</th>
+                <td>{{newValue ?.userName}}</td>
+            </tr>
+            <tr>
+                <th>Address:</th>
+                <td>{{newValue ?.address}}</td>
+            </tr>
+            <tr>
+                <th>EmailID:</th>
+                <td>{{newValue ?.emailid}}</td>
+            </tr>
+            <tr>
+                <th>PhoneNumber:</th>
+                <td>{{newValue ?.phone}}</td>
+            </tr>
+            <tr>
+              
+            </tr>
+          </tbody>
+        </table>
+        </div>
+        </div>
+        <div class=" col-lg-4 col-sm-4"></div>
+       
+      
+        </div>
+        
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="row">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+
+                <a class="btn btn-info" routerLink="/dashboard/edituser/:{{newValue ?.id}}">
+                    <i class="glyphicon glyphicon-edit icon-white"></i>
+                    Edit
+                </a>
+                </div>
+                <div class="col-md-4"></div>
+                </div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+  
+
+
+</div>
